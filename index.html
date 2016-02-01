@@ -1,0 +1,223 @@
+<!doctype html>
+<html class="no-js" lang="">
+<head>
+    <title>Homework 15</title>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="css/main.css">
+    <link  href="css/fotorama.css" rel="stylesheet">
+    <script src="js/fotorama.js"></script>
+    <script src="js/script.js"></script>
+
+
+
+
+
+
+</head>
+<body>
+    <div class="wrapper">
+
+
+
+            <!--BOOTSTRAP-->
+
+
+        <header class="h-page">
+            <nav class="navbar navbar-default">
+                <div class="container-fluid">
+                    <div class="container clearfix">
+                        <div class="navbar-header">
+                            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                                <span class="sr-only">Toggle navigation</span>
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                            </button>
+                        </div>
+                        <div class="menu">
+                            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                                <ul class="nav navbar-nav navbar-right">
+                                    <li><a href="#accordion">Accordion</a></li>
+                                    <li><a href="#modwin">Modal</a></li>
+                                    <li><a href="#tabmenu">Tabs</a></li>
+                                    <li><a href="#tool">Tooltip</a></li>
+                                    <li><a href="#slider">Slider</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+        </header>
+
+        <main class="m-page">
+
+
+            <!--Accordion-->
+
+
+            <div id="accordion" class="accordion">
+                <div class="container clearfix">
+                    <h2 class="title">Accordion</h2>
+                    <section class="accordion_item">
+                        <h3 class="title_block">Информация о нас</h3>
+                        <div class="info">
+                            <p class="info_item">Наша компания занимается производством и продажей косметической продукцией, а так же продукции личной гигиены и здоровья. Она была основана в  2003 году и является одним из лидеров на территории Украины. Наш девиз: "Нет ничего важнее чем красоты внешне и здоровья внутри!"</p>
+                        </div>
+                    </section>
+                    <section class="accordion_item">
+                        <h3 class="title_block">Наши продукты</h3>
+                        <div class="info">
+                            <p class="info_item">Шампуни</p>
+                            <p class="info_item">Гели для душа</p>
+                            <p class="info_item">Пены для бритья</p>
+                        </div>
+                    </section>
+                    <section class="accordion_item">
+                        <h3 class="title_block">Контакты</h3>
+                        <div class="info">
+                            <p class="info_item">адрес: г. Черкассы, ул. Гоголя 17</p>
+                            <p class="info_item">телефон: 32-32-32</p>
+                            <p class="info_item">e-mail: <a href="mailto:company@gmail.com">company@gmail.com</a></p>
+                        </div>
+                    </section>
+
+                 </div>
+            </div>
+
+
+            <!--Modal-->
+
+
+            <div id="modwin" class="modwin">
+                <div class="container clearfix">
+                    <h2 class="title">Modal window</h2>
+                    <a class="modlink" href="#dialog" name="modal">Как с нами связаться (нажать для проверки модального окна)</a>
+                    <div id="boxes">
+                        <div id="dialog" class="window">
+                            <p>
+                                адрес: г. Черкассы <br/>
+                                ул. Гоголя 179<br/>
+                                телефон: 55-55-5<br/>
+                                <a href="mailto:company@gmail.com">company@gmail.com</a>
+                            </p>
+                        <span><a href="#" class="close"/>Close</a></span>
+                        </div>
+                        <div id="mask"></div>
+                    </div>
+                </div>
+            </div>
+
+
+            <!--Tab menu-->
+
+
+            <div id="tabmenu" class="tabmenu">
+                <div class="container clearfix">
+                    <h2 class="title">Tab menu</h2>
+                    <div class="tabs">
+                        <ul class="tab-links">
+                            <li class="active"><a href="#tab1">Tab #1</a></li>
+                            <li><a href="#tab2">Tab #2</a></li>
+                            <li><a href="#tab3">Tab #3</a></li>
+                            <li><a href="#tab4">Tab #4</a></li>
+                        </ul>
+
+                        <div class="tab-content">
+                            <div id="tab1" class="tab active">
+                                <p>Tab #1</p>
+                                <p>Donec pulvinar neque sed semper lacinia. Curabitur lacinia ullamcorper nibh; quis imperdiet velit eleifend ac. Donec blandit mauris eget aliquet lacinia! Donec pulvinar massa interdum risus ornare mollis.</p>
+                            </div>
+
+                            <div id="tab2" class="tab">
+                                <p>Tab #2</p>
+                                <p>Donec pulvinar neque sed semper lacinia. Curabitur lacinia ullamcorper nibh; quis imperdiet velit eleifend ac. Donec blandit mauris eget aliquet lacinia! Donec pulvinar massa interdum risus ornare mollis. In hac habitasse platea dictumst. Ut euismod tempus hendrerit. Morbi ut adipiscing nisi. Etiam rutrum sodales gravida! Aliquam tellus orci, iaculis vel.</p>
+                            </div>
+
+                            <div id="tab3" class="tab">
+                                <p>Tab #3</p>
+                                <p>Donec pulvinar neque sed semper lacinia. Curabitur lacinia ullamcorper nibh; quis imperdiet velit eleifend ac. Donec blandit mauris eget aliquet lacinia! Donec pulvinar massa interdum ri.</p>
+                            </div>
+
+                            <div id="tab4" class="tab">
+                                <p>Tab #4</p>
+                                <p>Donec pulvinar neque sed semper lacinia. Curabitur lacinia ullamcorper nibh; quis imperdiet velit eleifend ac. Donec blandit mauris eget aliquet lacinia! Donec pulvinar massa interdum risus ornare mollis. In hac habitasse platea dictumst. Ut euismod tempus hendrerit. Morbi ut adipiscing nisi. Etiam rutrum sodales gravida! Aliquam tellus orci, iaculis vel.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            <!--Tooltip-->
+
+
+            <div id="tool" class="tool">
+                <div class="container clearfix">
+                    <h2 class="title">Tooltip</h2>
+                    <form>
+                        <span title="Введите, пожалуйста, Ваш логин" rel="tooltip"><input type="text" placeholder="..."></span>
+                        <span title="А здесь введите Ваш пароль" rel="tooltip"><input type="password" placeholder="..."></span>
+                        <span title="Нажмите на эту кнопку для отправки данных" rel="tooltip"><input type="submit" value="Отправить"></span>
+                    </form>
+                    <br/>
+                    <span title="Ваши данные требуются для входа на сайт и полноценного использования всех его функций" rel="tooltip">Зачем мне это делать?</span>
+                </div>
+            </div>
+
+
+            <!--Slider-->
+
+
+
+            <div id="slider" class="slider">
+                <div class="container clearfix">
+                    <h2 class="title">Slider</h2>
+                    <div class="fotorama slider-block">
+                        <img src="img/1.jpg">
+                        <img src="img/2.jpg">
+                        <img src="img/3.jpg">
+                        <img src="img/4.jpg">
+                        <img src="img/5.jpg">
+                    </div>
+                </div>
+            </div>
+
+
+            <!--Slider2-->
+
+
+            <div id="slider2" class="slider2">
+                <div class="container clearfix">
+
+                </div>
+            </div>
+
+
+        </main>
+
+
+        <!--Footer-->
+
+
+        <footer class="f-page">
+             <div class="container clearfix">
+                <span class="author">Домашняя работа №15 - JQuery. Автор: Сергиенко Василий</span>
+             </div>
+        </footer>
+    </div>
+
+    <script src="js/accordion.js"></script>
+    <script src="js/modal.js"></script>
+    <script src="js/tabs.js"></script>
+    <script src="js/tooltip.js"></script>
+    <script src="js/slider.js"></script>
+</body>
+</html>
